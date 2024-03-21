@@ -24,10 +24,8 @@ function Home() {
 
   const cardData = [
     { id: 1, image: `${process.env.PUBLIC_URL}/aadarsh.jpg`, additionalText: 'Aadarsh Rai', githubLink: 'https://github.com/Aadarsh0307', linkedinLink: 'https://www.linkedin.com/in/aadarsh-rai/' },
-    { id: 2, image: `${process.env.PUBLIC_URL}/aditya.jpg`, additionalText: 'Aditya Gandrakota', githubLink: 'https://github.com/Pikablaster123', linkedinLink: 'https://www.linkedin.com/in/gandrakota-aditya-a2969a267/' },
-    { id: 3, image: `${process.env.PUBLIC_URL}/aniruddha.jpeg`, additionalText: 'Aniruddha Pawar', githubLink: 'https://github.com/anirudddha', linkedinLink: 'https://www.linkedin.com/in/aniruddha-pawar-067740215/' },
-    { id: 4, image: `${process.env.PUBLIC_URL}/anish.jpeg`, additionalText: 'Anish Joshi', githubLink: 'https://github.com/AnishJ3 ', linkedinLink: 'https://www.linkedin.com/in/anish-joshi-5008b0228/ ' },
-    { id: 5, image: `${process.env.PUBLIC_URL}/vinayak.jpg`, additionalText: 'Vinayak Didwania', githubLink: 'https://github.com/vinayak-didwania', linkedinLink: 'https://www.linkedin.com/in/vinayak-didwania-09288021b/',},
+        { id: 2, image: `${process.env.PUBLIC_URL}/aadarsh.jpg`, additionalText: 'Yogi ', githubLink: 'https://github.com/Aadarsh0307', linkedinLink: 'https://www.linkedin.com/in/aadarsh-rai/' },
+    
   ];
 
   const Card = ({ image, additionalText, githubLink, linkedinLink }) => {
